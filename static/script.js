@@ -4,6 +4,7 @@
 
 // DOM Elements
 const messageInput = document.getElementById('message-input');
+const messageInput = document.getElementById('message-input34');
 const chatMessages = document.getElementById('chat-messages');
 const firewallToggle = document.getElementById('firewall-toggle');
 const firewallStatus = document.getElementById('firewall-status');
@@ -470,4 +471,5 @@ function setExample(element) {
     setTimeout(() => {
         element.classList.remove('bg-primary', 'text-white');
     }, 500);
+
 }
